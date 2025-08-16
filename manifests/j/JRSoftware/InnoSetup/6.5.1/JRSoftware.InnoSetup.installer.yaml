@@ -2,26 +2,26 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
 
 PackageIdentifier: JRSoftware.InnoSetup
-PackageVersion: 6.5.0
+PackageVersion: 6.5.1
 MinimumOSVersion: 6.1.0.0
 InstallerType: inno
 FileExtensions:
 - iss
 AppsAndFeaturesEntries:
-- DisplayName: Inno Setup version 6.5.0
+- DisplayName: Inno Setup version 6.5.1
   ProductCode: Inno Setup 6_is1
 RepairBehavior: installer
 Installers:
 - Architecture: x86
   Scope: machine
-  InstallerUrl: https://jrsoftware.org/download.php/innosetup-6.5.0.exe
-  InstallerSha256: 79B7A1063B3888BB8ECEB44A8C28E90CCDAA22AC71F9272DE1DAC79B42941DBD
+  InstallerUrl: https://jrsoftware.org/download.php/innosetup-6.5.1.exe
+  InstallerSha256: fb13f30baf6d0a5f0c96759598ba68553567c5a6e4edbc61b7508f184c72f8a3
   InstallerSwitches:
     Custom: /ALLUSERS
 - Architecture: x86
   Scope: user
-  InstallerUrl: https://jrsoftware.org/download.php/innosetup-6.5.0.exe
-  InstallerSha256: 79B7A1063B3888BB8ECEB44A8C28E90CCDAA22AC71F9272DE1DAC79B42941DBD
+  InstallerUrl: https://jrsoftware.org/download.php/innosetup-6.5.1.exe
+  InstallerSha256: fb13f30baf6d0a5f0c96759598ba68553567c5a6e4edbc61b7508f184c72f8a3
   InstallerSwitches:
     Custom: /CURRENTUSER
 ManifestType: installer
